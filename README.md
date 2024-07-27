@@ -13,8 +13,8 @@ Welcome to the Rule Engine Project! This application processes queries to genera
 - **Single Query Processing:** 
   - Generates an AST from a single query.
   - Example: 
-    ```json
-    [((age > 20 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)]
+    ```
+    ((age > 20 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)
     ```
 - **Multiple Query Processing:**
   - Combines multiple queries using a heuristic based on the most frequent operator and generates a combined AST.
