@@ -2,7 +2,7 @@
 
 ## 🔍 Query Processing and Validation Engine
 
-![Rule Engine](images/screenshots/engine-overview.png)
+![Rule Engine](screenshots/engine-overview.png)
 
 ## 🌟 Introduction
 
@@ -14,7 +14,7 @@ Welcome to the Rule Engine Project! This application processes queries to genera
   - Generates an AST from a single query.
   - Example: 
     ```json
-    ((age > 20 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)
+    [((age > 20 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)]
     ```
 - **Multiple Query Processing:**
   - Combines multiple queries using a heuristic based on the most frequent operator and generates a combined AST.
@@ -55,23 +55,28 @@ Welcome to the Rule Engine Project! This application processes queries to genera
 
 ## 📸 Screenshots
 *Single query processing with AST visualization.*
-![Single Query Screenshot](images/screenshots/single-query.png)
+<br/>
+![Single Query Screenshot](screenshots/single-query.png)
 <br/>
 
 *Multiple queries processing and combined AST visualization.*
-![Multiple Queries Screenshot](images/screenshots/multiple-queries.png)
+<br/>
+![Multiple Queries Screenshot](screenshots/multiple-queries.png)
 <br/>
 
 *AST formed.*
-![Ast Screenshot](images/screenshots/ast.png)
+<br/>
+![Ast Screenshot](screenshots/ast.png)
 <br/>
 
 *JSON data validation result.*
-![Validation Screenshot](images/screenshots/evaluation-result.png)
+<br/>
+![Validation Screenshot](screenshots/evaluation-result.png)
 <br/>
 
 *JSON data checks.*
-![Validation Screenshot](images/screenshots/json-check.png)
+<br/>
+![Validation Screenshot](screenshots/json-check.png)
 <br/>
 
 ## 📈 Data Processing
@@ -91,41 +96,41 @@ Make sure you have the following installed:
 
 ### Installation
 
-  # Clone the repository:
+  # 1. Clone the repository.
 
-  # Running the backend.
+  # 2. Running the backend.
   1. Go inside the server folder using (cd server)
-    ```
-    cd server
-    ```
+  
+  ```
+  cd server
+  ```
   2. Run the following command to install all the python requirements for the project( mentioned in the requirements file).
-
-    ```
-    pip install -r requirements.txt
-    ```
+  
+  ```
+  pip install -r requirements.txt
+  ```
   3. For running the server run the command.
+  
+  ```
+  python app.py
+  ```
 
-    ```
-    python app.py
-    ```
-
-  # Running the frontend.
+  # 3. Running the frontend.
   1. Go inside the frontend folder.
-
-    ```
-    cd frontend
-    ```
+  
+  ```
+  cd frontend
+  ```
   2. In the frontend install all the node modules listed int the package.json file.
-
-    ```
-    npm i
-    ```
+  
+  ```
+  npm i
+  ```
   3. Run the (npm start) command to run the frontend.
   
-
-    ```
-    npm start
-    ```
+  ```
+  npm start
+  ```
 
 The app will be running at `http://localhost:3000` and the server at `http://localhost:5001`.
 
