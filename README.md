@@ -97,6 +97,10 @@ Make sure you have the following installed:
 ### Installation
 
   # 1. Clone the repository.
+  
+  ```
+  git clone https://github.com/AbhinavBattu/Rule-Engine.git
+  ```
 
   # 2. Running the backend.
   1. Go inside the server folder using (cd server)
